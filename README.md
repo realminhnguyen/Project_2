@@ -1,13 +1,13 @@
 # Project_2
 
 ## Project Proposal
-### US Currency Predictor and Analysis
+### USD/CNY Exchange Rate Time Series Analysis
 
-Our project aims to predict future movements in the value of the Chinese Yuan versus the U.S. Dollar. We’ll analyze the strength of each currency throughout the time series. To create a possible forecast, we will also fit a linear regression model to both historical Yuan and Dollar values. 
+Our project aims to predict movements in the value of the Chinese Yuan versus the U.S. Dollar. We’ll analyze the trend rate throughout the time series. To create a possible forecast, we will also fit a regression model to the historical Yuan and Dollar pairing. 
 
 ### Goals
-1. Develop a machine learning model that will succeed in backtesting
-2. Identify predictable patterns in currency value trends and create a forecast
+1. Develop a machine learning model that will learn the data's movement pattern.
+2. Identify predictable patterns in currency value trends and create a forecast.
 
 ### Datasets to be used
 Our dataset comes from TradingView as a CSV file. There is a limited selection of currency exchange APIs that support free time-series calls, so we’re choosing the CSV file route.
@@ -16,7 +16,7 @@ Our dataset comes from TradingView as a CSV file. There is a limited selection o
 **Statsmodels** for Linear Regression models.
 
 ### Predictions and Conclusions
-We’ll give a numerical summary (what our model yielded) and visualizations of our summary (plots of the final model evaluation and predictions). We will also give a forecast after we perform successful backtesting.
+We’ll give a summary and a visualization of our summary. We will also give a forecast after we perform successful model predicting.
 
 ### Breakdown of Tasks
 #### Hunt for Data
@@ -34,6 +34,6 @@ We’ll give a numerical summary (what our model yielded) and visualizations of 
 - Use our training data to fit the model
 #### Model Evaluation
 - Use the data and predicted values to evaluate the model
-- Perform backtesting to analyze model performance
 - Create statistical analysis to report the model performance
+- Analyze the patterns that correlate with certain periods/times
 
